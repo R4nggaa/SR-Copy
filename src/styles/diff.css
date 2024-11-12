@@ -1,0 +1,29 @@
+.diff
+{
+  font-family:monospace;
+}
+
+.diff .change-Added
+{
+  color: lightgreen;
+}
+.diff .change-Removed
+{
+  color: lightcoral;
+}
+
+.diff .change-Replaced:hover
+{
+  color: rgb(255, 255, 255);
+}
+
+.diff .change-Changed,
+.diff .change-Same
+{
+  color: grey;
+}
+
+.diff .block
+{
+  display:block;
+}
